@@ -631,7 +631,7 @@ async function main() {
     console.log(`Proxy: ${proxies.length}`);
     process.exit(1);
   }
-  console.log(colors.yellow("Join Telegram Channel (https://t.me/D4rkCipherX)"));
+  console.log(colors.yellow("Join Telegram Channel (@mrptechofficial)"));
 
   if (!settings.USE_PROXY) {
     console.log(`You are running bot without proxies, enable use proxy by key USE_PROXY in file .env`.yellow);
