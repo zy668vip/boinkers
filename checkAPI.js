@@ -31,14 +31,14 @@ async function getBaseApi(url) {
       return {
         endpoint: null,
         message:
-          "Telegram Channel : (https://t.me/D4rkCipherX)",
+          "Telegram Channel : (https://t.me/mrptechofficial)",
       };
     }
   } catch (e) {
     return {
       endpoint: null,
       message:
-      "Telegram Channel : (https://t.me/D4rkCipherX)",
+      "Telegram Channel : (https://t.me/mrptechofficial)",
     };
   }
 }
