@@ -16,7 +16,7 @@ async function checkBaseUrl() {
     return {
       endpoint: settings.BASE_URL,
       message:
-        "Telegram Channel : (https://t.me/D4rkCipherX)",
+        "Telegram Channel : (https://t.me/mrptechofficial)",
     };
   }
 }
