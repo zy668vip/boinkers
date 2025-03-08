@@ -185,7 +185,7 @@ class Boink {
         return { success: true, data: response.data };
       } catch (error) {
         if (error.status < 500 && error.status >= 400 && error.status != 429) {
-          // this.log(`Invalid request for ${url}, maybe have new update from server | contact: https://t.me/D4rkCipherX to get new update!`, "error");
+          // this.log(`Invalid request for ${url}, maybe have new update from server | contact: https://t.me/mrptechofficial to get new update!`, "error");
           return { success: false, status: error.status, error: error.response.data.error || error.response.data.message || error.message };
         }
         this.log(`Request failed: ${url} | ${error.response.data ? JSON.stringify(error.response.data) : error.message} | retrying...`, "warning");
